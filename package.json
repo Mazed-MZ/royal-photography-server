@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon expres.js",
+    "start": "node expres.js",
+    "start-dev": "nodemon expres.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
