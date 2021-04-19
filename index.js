@@ -18,6 +18,7 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 
 
 client.connect(err => {
+    console.log("Database connected:", err)
     const Collection = client.db("Royal_Photography").collection("service-data");
 
     app.post('/addService', (req, res) => {
